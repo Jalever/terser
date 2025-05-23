@@ -5,8 +5,8 @@
  * 演示如何遍历AST树结构，访问各种节点
  */
 
-const { parse } = require("../../lib/parse");
-const { TreeWalker } = require("../../lib/ast");
+import { parse } from "../../lib/parse.js";
+import { TreeWalker } from "../../lib/ast.js";
 
 console.log("=== AST遍历示例 ===\n");
 

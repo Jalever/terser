@@ -12,10 +12,10 @@ example(1, 2);
 
 // 实现一个简单的自定义TreeWalker
 const walker = new TreeWalker(function (node, descend) {
-	console.log(`Node type: ${node.TYPE}`);
+    console.log(`Node type: ${node.TYPE}`);
 
-	// 可以通过返回true来跳过子节点遍历
-	// 或者不返回值让遍历继续
+    // 可以通过返回true来跳过子节点遍历
+    // 或者不返回值让遍历继续
 });
 
 // 执行遍历
